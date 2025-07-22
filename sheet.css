@@ -22,6 +22,7 @@ ul{
 
 .katalog img {
     width: 90%;
+    justify-content: center;
 }
 .tekst{
     border: 1px solid lightgreen;
