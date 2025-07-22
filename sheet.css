@@ -1,6 +1,21 @@
+header{
+    text-align: center;
+    font-size: 300%;
+}
 h3{
     color: green;
 }
-ol{
+ul{
     font-style: italic;
+    text-decoration: none;
+}
+.katalog img{
+    width: 20%;
+}
+.katalog{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tekst{
+    border: 1px solid lightgreen;
 }
