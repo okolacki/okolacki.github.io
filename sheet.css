@@ -23,4 +23,6 @@ ul{
 }
 .tekst{
     border: 1px solid lightgreen;
+    margin-left: 20px;
+    margin-right: 20px;
 }
