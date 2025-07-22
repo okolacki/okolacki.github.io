@@ -13,8 +13,9 @@ ul{
     text-decoration: none;
 }
 .katalog img{
-    width: 40%;
+    width: 25%;
     margin: 5px;
+    box-shadow: dimgray 2px 2px 8px;
 }
 .katalog{
     display: flex;
