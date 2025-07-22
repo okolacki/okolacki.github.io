@@ -36,7 +36,7 @@ ul{
 .lokalizacja {
     font-size: 0.9em;
     font-style: italic; 
-    color: #444;
+    color: dimgray;
     margin-top: 5px;
 }
 .tekst{
@@ -60,6 +60,6 @@ h4{
     width: 22%;
     background-color: whitesmoke;
     border-radius: 8px;
-        box-shadow: dimgray 2px 2px 8px;
+    box-shadow: dimgray 2px 2px 8px;
 
 }
