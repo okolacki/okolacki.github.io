@@ -22,7 +22,6 @@ ul{
 
 .katalog img {
     width: 20%;
-    box-shadow: dimgray 2px 2px 8px;
 }
 .tekst{
     border: 1px solid lightgreen;
@@ -33,10 +32,18 @@ h4{
     text-decoration: none;
     text-align: center;
     padding: 20px;
+    color: white;
 }
 .pierw{
     background-color: whitesmoke;
 }
 .drug{
     background-color: lightgreen;
+}
+.okno{
+    width: 22%;
+    background-color: whitesmoke;
+    border-radius: 8px;
+        box-shadow: dimgray 2px 2px 8px;
+
 }
