@@ -82,8 +82,11 @@ h4:hover{
 input{
     border-radius: 5px;
     border: 1px solid green;
-    width: 80%;
+    width: 40%;
     margin-left: 20px;
+}
+input[type=textbox]{
+    height: 5%;
 }
 button{
     background-color: green;
