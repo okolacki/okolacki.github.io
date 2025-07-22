@@ -27,10 +27,12 @@ ul{
 }
 
 .obraz {
-    width: 200px;
-    height: 130px;
+    width: 20%
 }
-
+a{
+    text-decoration: none;
+    color: black;
+}
 .katalog img {
     width: 100%;
     border: 4px solid white; 
