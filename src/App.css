@@ -95,3 +95,17 @@ button{
     width: 10%;
     height: 7%;
 }
+#btnContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn{
+    text-align: center;
+    background-color: lightgreen;
+    padding: 10px;
+    width: 170px;
+    height: 40px;
+    margin: 10px;
+        border: none;
+}

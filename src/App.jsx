@@ -1,18 +1,22 @@
 import { useState } from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './Header'
+import Galeria from './Galeria'
 
-function App() {
+
+function Home() {
   const [count, setCount] = useState(0)
 
   return (
       <>
         <Header></Header>
         <section>
-        <h4 className="pierw"><a href="index.html">Menu</a></h4>
-        <h4 className="drug"><a href="views.html">Photogallery</a></h4>
+        <h4 className="pierw"><Link to="/">Menu</Link></h4>
+        <h4 className="drug"><Link to ="/galeria">Photogallery</Link></h4>
     </section>
     <section className="tekst">
         <h3>Discover. Plan. Explore.</h3>
@@ -39,36 +43,17 @@ From hand-picked destinations and detailed travel guides to flight deals, hotel 
   )
 }
 
-function Galeria() {
-  return(
-    <>
-    <Header></Header>
-    <section>
-        <h4 class="pierw"><a href="App">Menu</a></h4>
-        <h4 class="drug"><a href="Galeria">Photogallery</a></h4>
-    </section>
-    <section class="katalog">
-    <div class="obraz">
-        <img src="images/1.jpg" alt="1"/>
-        <p class="lokalizacja">📍 Como, Italy</p>
-    </div>
-    <div class="obraz">
-        <img src="images/2.jpg" alt="2"/>
-        <p class="lokalizacja">📍 La Spezia, Italy</p>
-    </div>
-    <div class="obraz">
-        <img src="images/3.jpg" alt="3"/>
-        <p class="lokalizacja">📍 Paris, France</p>
-    </div>
-    <div class="obraz">
-        <img src="images/4.jpg" alt="4"/>
-        <p class="lokalizacja">📍 Cracow, Poland</p>
-    </div>
-    </section>
-    </>
-  )
+function App(){
+    return(
+        <Router>
+            <Routes>
+                <Route path="/" element={<Home />}/>
+                <Route path="/galeria" element={<Galeria />}/>
+            </Routes>
+        </Router>
+    )
 }
 
-export default App
+export default App;
 
 
