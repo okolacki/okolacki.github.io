@@ -9,7 +9,7 @@ import Work from "./Work";
 
 function App() {
   return (
-    <div className="font-sans">
+    <div className="font-sans bg-white">
       <Navbar />
       <Hero />
       {/* ewentualny footer */}
