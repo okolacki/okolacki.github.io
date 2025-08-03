@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <header className="relative">
       {/* Nawigacja dla komputerów stacjonarnych */}
-      <div className="hidden md:flex gap-8 text-sm uppercase tracking-wider items-center justify-between px-6 py-4 text-gray-800">
+      <div className="hidden md:flex gap-8 text-sm uppercase tracking-wider items-center justify-between px-6 py-4 text-gray-800 bg-white">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/work">Work</Link>
@@ -20,7 +20,7 @@ export default function Navbar() {
       </div>
 
       {/* Ikona menu dla urządzeń mobilnych */}
-      <div className="md:hidden flex justify-end p-4">
+      <div className="md:hidden flex justify-end p-4 bg-white">
         <button onClick={toggleMenu} className="text-2xl text-gray-800">
           {isMenuOpen ? <HiX /> : <HiMenuAlt3 />}
         </button>
