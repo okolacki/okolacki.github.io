@@ -11,7 +11,7 @@ export default function Cv() {
           {/* Header */}
           <div className="text-center mb-12">
             <h2 className="font-serif text-6xl md:text-7xl leading-tight text-orange-400">
-              My <span className="italic">Journey</span>
+              My<span className="italic">JOURNEY</span>
             </h2>
           </div>
 
