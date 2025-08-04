@@ -155,6 +155,9 @@ export default function Cv() {
                     <h4 className="text-xl font-semibold text-gray-800 mt-1">Student</h4>
                     <p className="text-gray-700">Szczecińskie Collegium Informatyczne | Szczecin, Poland</p>
                   </div>
+                  <h3 className="text-3xl font-serif font-bold text-gray-800 border-b-2 border-orange-400 pb-2">
+                  Certifications
+                </h3>
                   <div className="relative pl-8">
                     <div className="absolute left-0 top-0 h-full w-0.5 bg-orange-300"></div>
                     <div className="absolute left-0 top-0 -ml-2 h-4 w-4 bg-orange-400 rounded-full shadow-md animate-pulse-slow"></div>

@@ -11,6 +11,8 @@ import Polska from "/public/plakatpolska.jpg";
 import Ulotka1 from "/public/ulotka.jpg";
 import Ulotka2 from "/public/ulotkaapteka.jpg";
 import Tee from "/public/watchyourtee.png";
+import Pyknijmy from "/public/logopyknijmy.png";
+import Bat from "/public/batclicker.png";
 
 const NextArrow = (props) => {
   const { className, onClick } = props;
@@ -65,6 +67,32 @@ export default function ProjectsCarousel() {
         <h1 className="font-serif text-6xl md:text-7xl mb-2 leading-tight text-pink-400 flex justify-center">
           My <span className="italic">WORK</span>
         </h1>
+        <h1 className="font-serif text-xl md:text-2xl mb-4 leading-tight text-pink-400 flex justify-center">
+           <span className="italic">Projects</span>
+        </h1>
+        <div className="flex flex-row justify-center gap-20">
+          <a href="https://github.com/BoomBat-esmovia">
+        <div className="p-6 relative mb-10 overflow-hidden rounded-md bg-gradient-to-br from-blue-100 to-pink-300 h-[50vh] w-[35vw] flex justify-center flex-col items-center transition duration-300 ease-in-out hover:scale-105">
+        <div className="w-120 h-50 bg-white/20 backdrop-blur-lg rounded-xl p-8 border border-white/30 shadow-xl">
+        <img src={Bat} alt="" className="w-full h-full object-contain" />
+        </div>
+          <h1 className="text-pink-400 text-2xl font-serif  rounded-md mt-2">Boombat</h1>
+          <p className="text-center">Game service where you climb up the Batcoins leaderboard - currency you can earn by playing games.</p>
+        </div>
+        </a>
+        <a href="https://github.com/niedlich3/PyknijMy">
+        <div className="p-6 relative mb-10 overflow-hidden rounded-md bg-gradient-to-br from-blue-100 to-pink-300 h-[50vh] w-[35vw] flex justify-center flex-col items-center transition duration-300 ease-in-out hover:scale-105">
+        <div className="w-120 h-50 bg-white/20 backdrop-blur-lg rounded-xl p-8 border border-white/30 shadow-xl">
+        <img src={Pyknijmy} alt="" className="w-full h-full object-contain"/>
+        </div>
+          <h1 className="text-pink-400 text-2xl font-serif  rounded-md mt-2">PyknijMY</h1>
+          <p className="text-center">Website that helps you find people to do activities with, you always can find someone to play sports with, go to a concert or even study.</p>
+        </div>
+        </a>
+        </div>
+        <h1 className="font-serif text-xl md:text-2xl mb-4 leading-tight text-pink-400 flex justify-center">
+           <span className="italic">Graphic Design</span>
+        </h1>
         <Slider {...settings}>
           {items.map((it) => (
             <div key={it.id}>
@@ -75,7 +103,7 @@ export default function ProjectsCarousel() {
           ))}
         </Slider>
       </div>
-      <div className="fixed inset-x-0 bottom-0 h-40 bg-gradient-to-t from-pink-200 to-transparent pointer-events-none z-0"></div>
+      <div className="fixed inset-x-0 bottom-0 h-20 bg-gradient-to-t from-pink-200 to-transparent pointer-events-none z-0"></div>
     </section>
   );
 }
