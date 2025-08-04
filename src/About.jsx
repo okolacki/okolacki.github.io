@@ -23,7 +23,7 @@ export default function About() {
               and I enjoy playing sports, especially running, going to the gym, and football.
             </p>
             <div className="mt-6 sm:mt-8 flex justify-center md:justify-start space-x-4 sm:space-x-6">
-              <a href="https://github.com/okolacki-github-profile" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-green-500 transition-colors duration-300">
+              <a href="https://github.com/okolacki" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-green-500 transition-colors duration-300">
                 <FaGithub size={28} sm:size={32} />
               </a>
               <a href="https://www.instagram.com/o.kolacki/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-green-500 transition-colors duration-300">
