@@ -2,7 +2,8 @@ import React from "react";
 import Navbar from "./Navbar";
 import ZdjecieProfilowe from "./fotka.jpg";
 import Boutme from "/public/zdjecie.jpg";
-import { FaGithub, FaInstagram, FaFacebook } from "react-icons/fa";
+import { FaGithub} from "react-icons/fa";
+import { IoIosMail } from "react-icons/io";
 
 export default function About() {
   return (
@@ -26,11 +27,8 @@ export default function About() {
               <a href="https://github.com/okolacki" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-green-500 transition-colors duration-300">
                 <FaGithub size={28} sm:size={32} />
               </a>
-              <a href="https://www.instagram.com/o.kolacki/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-green-500 transition-colors duration-300">
-                <FaInstagram size={28} sm:size={32} />
-              </a>
-              <a href="https://www.facebook.com/o.kolacki/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-green-500 transition-colors duration-300">
-                <FaFacebook size={28} sm:size={32} />
+              <a href="mailto:oliverkolacki@gmail.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-green-500 transition-colors duration-300">
+                <IoIosMail size={28} sm:size={32} />
               </a>
             </div>
           </div>
