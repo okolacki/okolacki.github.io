@@ -68,7 +68,7 @@ const myProjects = [
     },
     {
         id: 3,
-        title: "Boombat 3",
+        title: "Boombat",
         description: "Game service where you climb up the Batcoins leaderboard - currency you can earn by playing games.",
         image: Bat,
         link: "https://github.com/BoomBat-esmovia"
