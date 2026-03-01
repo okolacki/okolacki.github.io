@@ -72,6 +72,8 @@ function SkillAccordion() {
 }
 
 // Full CV component
+// Full CV component
+// Full CV component
 export default function Cv() {
   return (
     <>
@@ -85,7 +87,8 @@ export default function Cv() {
             </h2>
           </div>
           <div className="grid md:grid-cols-2 gap-12 lg:gap-20">
-            {/* Column 1: Experience & Education */}
+
+            {/* Column 1: Experience & Certifications (Left Side) */}
             <div className="space-y-10">
               {/* --- Professional Experience --- */}
               <div>
@@ -142,6 +145,62 @@ export default function Cv() {
                   </div>
                 </div>
               </div>
+
+              {/* --- Certifications (Moved back to Left Side) --- */}
+              <div>
+                <h3 className="text-3xl font-serif font-bold text-gray-800 border-b-2 border-orange-400 pb-2">
+                  Certifications
+                </h3>
+                <div className="mt-6 space-y-8">
+                  <div className="relative pl-8">
+                    <div className="absolute left-0 top-0 h-full w-0.5 bg-orange-300"></div>
+                    <div className="absolute left-0 top-0 -ml-2 h-4 w-4 bg-orange-400 rounded-full shadow-md animate-pulse-slow"></div>
+                    <p className="text-sm text-gray-500 font-medium italic">2021</p>
+                    <h4 className="text-xl font-semibold text-gray-800 mt-1">IC3 Spark</h4>
+                    <p className="text-gray-700">Szczecińskie Collegium Informatyczne | Szczecin, Poland</p>
+                  </div>
+                  <div className="relative pl-8">
+                    <div className="absolute left-0 top-0 h-full w-0.5 bg-orange-300"></div>
+                    <div className="absolute left-0 top-0 -ml-2 h-4 w-4 bg-orange-400 rounded-full shadow-md animate-pulse-slow"></div>
+                    <p className="text-sm text-gray-500 font-medium italic">2023</p>
+                    <h4 className="text-xl font-semibold text-gray-800 mt-1">eJPT</h4>
+                    <p className="text-gray-700">Szczecińskie Collegium Informatyczne | Szczecin, Poland</p>
+                  </div>
+                  <div className="relative pl-8">
+                    <div className="absolute left-0 top-0 h-full w-0.5 bg-orange-300"></div>
+                    <div className="absolute left-0 top-0 -ml-2 h-4 w-4 bg-orange-400 rounded-full shadow-md animate-pulse-slow"></div>
+                    <p className="text-sm text-gray-500 font-medium italic">2024</p>
+                    <h4 className="text-xl font-semibold text-gray-800 mt-1">INF.02</h4>
+                    <p className="text-gray-700">Szczecińskie Collegium Informatyczne | Szczecin, Poland</p>
+                  </div>
+                  <div className="relative pl-8">
+                    <div className="absolute left-0 top-0 h-full w-0.5 bg-orange-300"></div>
+                    <div className="absolute left-0 top-0 -ml-2 h-4 w-4 bg-orange-400 rounded-full shadow-md animate-pulse-slow"></div>
+                    <p className="text-sm text-gray-500 font-medium italic">2025</p>
+                    <h4 className="text-xl font-semibold text-gray-800 mt-1">INF.03</h4>
+                    <p className="text-gray-700">Szczecińskie Collegium Informatyczne | Szczecin, Poland</p>
+                  </div>
+                  <div className="relative pl-8">
+                    <div className="absolute left-0 top-0 h-full w-0.5 bg-orange-300"></div>
+                    <div className="absolute left-0 top-0 -ml-2 h-4 w-4 bg-orange-400 rounded-full shadow-md animate-pulse-slow"></div>
+                    <p className="text-sm text-gray-500 font-medium italic">2025</p>
+                    <h4 className="text-xl font-semibold text-gray-800 mt-1">Node.JS and React Course</h4>
+                    <p className="text-gray-700">Esmovia | Valencia, Spain</p>
+                  </div>
+                  <div className="relative pl-8">
+                    <div className="absolute left-0 top-0 h-full w-0.5 bg-orange-300"></div>
+                    <div className="absolute left-0 top-0 -ml-2 h-4 w-4 bg-orange-400 rounded-full shadow-md animate-pulse-slow"></div>
+                    <p className="text-sm text-gray-500 font-medium italic">2025</p>
+                    <h4 className="text-xl font-semibold text-gray-800 mt-1">Erasmus+ Mobility Programme</h4>
+                    <p className="text-gray-700">Esmovia | Valencia, Spain</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Column 2: Education, Skills & Other Info (Right Side) */}
+            <div className="space-y-10">
+
               {/* --- Education --- */}
               <div>
                 <h3 className="text-3xl font-serif font-bold text-gray-800 border-b-2 border-orange-400 pb-2">
@@ -155,41 +214,17 @@ export default function Cv() {
                     <h4 className="text-xl font-semibold text-gray-800 mt-1">Student</h4>
                     <p className="text-gray-700">Szczecińskie Collegium Informatyczne | Szczecin, Poland</p>
                   </div>
-                  <h3 className="text-3xl font-serif font-bold text-gray-800 border-b-2 border-orange-400 pb-2">
-                  Certifications
-                </h3>
-                  <div className="relative pl-8">
-                    <div className="absolute left-0 top-0 h-full w-0.5 bg-orange-300"></div>
-                    <div className="absolute left-0 top-0 -ml-2 h-4 w-4 bg-orange-400 rounded-full shadow-md animate-pulse-slow"></div>
-                    <p className="text-sm text-gray-500 font-medium italic">2021</p>
-                    <h4 className="text-xl font-semibold text-gray-800 mt-1">IC3 Spark Certification</h4>
-                    <p className="text-gray-700">Szczecińskie Collegium Informatyczne | Szczecin, Poland</p>
-                  </div>
-                  <div className="relative pl-8">
-                    <div className="absolute left-0 top-0 h-full w-0.5 bg-orange-300"></div>
-                    <div className="absolute left-0 top-0 -ml-2 h-4 w-4 bg-orange-400 rounded-full shadow-md animate-pulse-slow"></div>
-                    <p className="text-sm text-gray-500 font-medium italic">2023</p>
-                    <h4 className="text-xl font-semibold text-gray-800 mt-1">eJPT Certification</h4>
-                    <p className="text-gray-700">Szczecińskie Collegium Informatyczne | Szczecin, Poland</p>
-                  </div>
-                  <div className="relative pl-8">
-                    <div className="absolute left-0 top-0 h-full w-0.5 bg-orange-300"></div>
-                    <div className="absolute left-0 top-0 -ml-2 h-4 w-4 bg-orange-400 rounded-full shadow-md animate-pulse-slow"></div>
-                    <p className="text-sm text-gray-500 font-medium italic">2024</p>
-                    <h4 className="text-xl font-semibold text-gray-800 mt-1">INF.02 Certification</h4>
-                    <p className="text-gray-700">Szczecińskie Collegium Informatyczne | Szczecin, Poland</p>
-                  </div>
                 </div>
               </div>
-            </div>
-            {/* Column 2: Skills & Other Info */}
-            <div className="space-y-10">
+
+              {/* --- Skills --- */}
               <div>
                 <h3 className="text-3xl font-serif font-bold text-gray-800 border-b-2 border-orange-400 pb-2 mb-4">
                   Skills
                 </h3>
                 <SkillAccordion />
               </div>
+
               {/* --- Languages --- */}
               <div>
                 <h3 className="text-3xl font-serif font-bold text-gray-800 border-b-2 border-orange-400 pb-2">Languages</h3>
@@ -208,6 +243,7 @@ export default function Cv() {
                   </div>
                 </div>
               </div>
+
               {/* --- Interests --- */}
               <div>
                 <h3 className="text-3xl font-serif font-bold text-gray-800 border-b-2 border-orange-400 pb-2">Interests</h3>
@@ -217,7 +253,7 @@ export default function Cv() {
                   </div>
                 </div>
               </div>
-              {/* Możesz dodać kolejne sekcje jeżeli chcesz */}
+
             </div>
           </div>
         </div>

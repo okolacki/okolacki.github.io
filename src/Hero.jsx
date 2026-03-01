@@ -14,7 +14,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="mt-4 text-xs uppercase text-gray-600 flex justify-between px-4">
-          <div className="font-medium">GRAPHIC DESIGN &amp; WEB DEVELOPMENT</div>
+          <div className="font-medium">IT STUDENT</div>
           <div className="font-medium">READY TO SEE MY WORK?</div>
         </div>
       </div>
